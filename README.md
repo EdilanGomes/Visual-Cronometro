@@ -10,4 +10,6 @@ CSS3
 
 link de acesso do projeto: 
 
-https://edilangomes.github.io/Visual-Cronometro/
+<a href="https://edilangomes.github.io/Visual-Cronometro/" target="_blank">--> Link de acesso ao projeto</a>
+
+
