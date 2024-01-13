@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background-color: #836FFF;
+
+}
+
+.stop-relogio {
+
+    background-color: #262626;
+    padding: 120px 120px;
+    border-radius: 20px;
+
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background-color: #262626;
+    height: 300px;
+    width: 300px;
+    border: 7px solid #9f6bff;
+    border-radius: 100%;
+    color: white;
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+
+.actions {
+
+    display: flex;
+    gap: 16px;
+}
+
+.actions button {
+
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 9px;
+    border: none;
+    color: #262626;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color .2s ease-in;
+
+}
+
+.actions button:hover {
+    background-color: rgb(189, 76, 242)
+
+
+}
+
+.marks-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+
+}
+
+.marks-list p:first-child {
+    margin-top: 16px;
+
+}
